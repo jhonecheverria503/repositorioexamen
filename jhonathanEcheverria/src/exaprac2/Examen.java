@@ -21,6 +21,10 @@ public class Examen {
               r= Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opcion: \n\n 1)Agregar Producto \n 2)Calcular Todo \n 3)Salir "));
         switch (r) {
             case 1:
+              
+              int n = Integer.parseInt(JOptionPane.showInputDialog("Cuantos productos ingresara"));
+                
+               String productos[]=new String[n]; 
                 
                 
                 break;
