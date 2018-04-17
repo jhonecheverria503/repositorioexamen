@@ -25,7 +25,17 @@ public class Examen {
               int n = Integer.parseInt(JOptionPane.showInputDialog("Cuantos productos ingresara"));
                 
                String productos[]=new String[n]; 
+               int cantidad[]=new int[n];
+               double precio[]=new double[n];
                 
+                for (int i = 0; i < n; i++) {
+                    
+                    productos[i]=JOptionPane.showInputDialog("Ingrese el producto "+(i+1)+": ");
+                    cantidad[i]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de producto "));
+                    precio[i]=Double.parseDouble(JOptionPane.showInputDialog("Ingrese el precio"));
+                    
+                    
+                }
                 
                 break;
              
