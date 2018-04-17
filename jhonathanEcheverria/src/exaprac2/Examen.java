@@ -37,9 +37,19 @@ public class Examen {
                     
                 }
                 
+                for (int i = 0; i < n; i++) {
+                    
+                    JOptionPane.showMessageDialog(null, "Producto \n "+productos[i]+ "\nCantidad \n "+cantidad[i]+"\nPrecio \n "+precio[i] );
+                    
+                }
+                
                 break;
              
             case 2:
+                
+            
+                
+                
                 
                 break;
             
